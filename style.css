@@ -1,3 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.containerClear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 .box {
     width: 1000px;
     position: absolute;
