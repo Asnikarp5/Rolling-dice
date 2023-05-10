@@ -197,6 +197,27 @@ i {
     top: 467px;
 }
 
+.container {
+    width: 10%;
+    text-align: center;
+    padding-top: 2px;
+
+
+}
+
+.butn {
+
+    border-radius: 7px;
+    color: #555;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.butn:hover {
+    background: #fc9e9b;
+    text-decoration: none;
+}
+
 .dice {
     position: absolute;
     left: 50%;
