@@ -53,7 +53,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(pexels.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -126,19 +126,21 @@ body {
 }
 
 .playerCurrentBox {
-    background-color: #EB4D4D;
+    background-color: #f81c1c;
     color: #fff;
     width: 40%;
     margin: 0 auto;
     padding: 12px;
     text-align: center;
+    border-radius: 15px;
 }
 
 .player-current-label {
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-size: 12px;
-    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e0d0d;
 }
 
 .player-current-score {
@@ -214,7 +216,7 @@ i {
 }
 
 .butn:hover {
-    background: #fc9e9b;
+    background: #e27979;
     text-decoration: none;
 }
 
@@ -233,7 +235,12 @@ i {
 
 .winner .player-name {
     font-weight: 300;
-    color: #EB4D4D;
+    color: #3b94fa;
+}
+
+.winner .player-score {
+    font-weight: 500;
+    color: #3b94fa;
 }
 
 @media screen and (min-device-width: 100px) and (max-device-width: 500px) {
