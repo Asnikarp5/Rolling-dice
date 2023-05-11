@@ -118,6 +118,20 @@ function editNames() {
         .innerHTML = player2;
 }
 
+// How to play button
+document.addEventListener('DOMContentLoaded', function () {
+    var instructionsButton = document.getElementById('instructions-button');
+    var instructionsContainer = document.getElementById('instructions-container');
+
+    instructionsButton.addEventListener('click', function () {
+
+        if (instructionsContainer.style.display === 'none') {
+            instructionsContainer.style.display = 'block';
+        } else {
+            instructionsContainer.style.display = 'none'
+        }
+    });
+});
 //document.querySelector('#current-' + activePlayer).textContent = dice;
 //document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
 //var x = document.querySelector('#score-0').textContent;
