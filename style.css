@@ -21,7 +21,7 @@
     width: 350px;
     height: auto;
     border-style: solid;
-    border-color: #0a0101;
+    border-color: #885d5d;
 
 
 
@@ -141,7 +141,7 @@ body {
 }
 
 .playerCurrentBox {
-    background-color: #f81c1c;
+    background-color: #e97d7d;
     color: #fff;
     width: 40%;
     margin: 0 auto;
