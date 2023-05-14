@@ -17,10 +17,11 @@
 *********************************************/
 #myBtn {
     color: #555;
-    margin-top: 505px;
+    top: 525px;
     border-radius: 7px;
     text-decoration: none;
     font-size: 20px;
+    height: auto;
 }
 
 #myBtn:hover {
@@ -355,6 +356,10 @@ i {
         width: 250px;
         text-transform: uppercase;
     }
+
+    #myBtn {
+        top: 1200px;
+    }
 }
 
 @media screen and (min-device-width: 501px) and (max-device-width: 1000px) {
@@ -403,5 +408,9 @@ i {
         padding: 10px;
         width: 250px;
         text-transform: uppercase;
+    }
+
+    myBtn {
+        top: 660px;
     }
 }
