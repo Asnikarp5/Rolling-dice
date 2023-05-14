@@ -118,20 +118,31 @@ function editNames() {
         .innerHTML = player2;
 }
 
-// How to play button
-document.addEventListener('DOMContentLoaded', function () {
-    var instructionsButton = document.getElementById('instructions-button');
-    var instructionsContainer = document.getElementById('instructions-container');
+// Rules button
+var modal = document.getElementById("first-box");
 
-    instructionsButton.addEventListener('click', function () {
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
 
-        if (instructionsContainer.style.display === 'none') {
-            instructionsContainer.style.display = 'block';
-        } else {
-            instructionsContainer.style.display = 'none'
-        }
-    });
-});
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function () {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 //document.querySelector('#current-' + activePlayer).textContent = dice;
 //document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
 //var x = document.querySelector('#score-0').textContent;
