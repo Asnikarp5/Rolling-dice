@@ -288,10 +288,7 @@ i {
     .box {
         width: 750px;
         height: 1000px;
-        /* position: relative; */
-        /* top: 25%;
-      left: 50%; */
-        /* height:1000px */
+        
     }
 
     .player-0-panel,
@@ -348,9 +345,7 @@ i {
         width: 750px;
         height: 700px;
         top: 500px;
-        /* position: relative; */
-
-        /* height:1000px */
+        
     }
 
     .player-0-panel,
