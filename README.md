@@ -1,4 +1,11 @@
 # Rolling-dice
+
+## Screenshots
+
+Rolling Dice[url](https://ui.dev/amiresponsive?url=https://asnikarp5.github.io/Rolling-dice/)
+
+
+
 Rolling Dice Game
 
 A brief description of what this project does and who it's for
@@ -15,6 +22,21 @@ A brief description of what this project does and who it's for
 
 Rolling dice game with two players is a classic game of chance that is easy to learn and fun to play. To begin the game, each player takes turns rolling a single dice, and the player with the highest number goes first. The first player then rolls  dice, and the sum of the numbers rolled determines their score. The second player then takes their turn, and the game continues in this manner.
 
+## Player
+ - Two player games
+ - You can change names
+ - It's show you which player win.
+
+## Buttons
+
+ - Edit button for write and change name.
+ - New game you can start new game.
+ - Roll for rolling dice you can see score in current box
+ - Hold for switch turn to other players
+ - Rules it's show how toplay game.
+
+
+
 ## Acknowledgements
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
@@ -26,12 +48,21 @@ Rolling dice game with two players is a classic game of chance that is easy to l
 ## Running Tests
 
 - HTML
-No errors were returned when passing through the official W3C validator
+No errors, but warring to add heading to each section.
+()
 
 - CSS
-No errors were found when passing through the official css validator
+yes 4error it's for media quary 
+(When I run my project on live server it's working fine Itired tofix it but am out of time I have to re-submit project)
 
-- No bugs
+- Java script
+no bugs
+
+## Commits
+- I tired to fix my commit as much as possibly.
+
+## Directory
+I  made assets folder for css,images and js folder but I was having difficulty with commit beacuse it wasn't showing files and dice image so I delete assets folder.
 
 ## Deployment
 
@@ -42,8 +73,4 @@ No errors were found when passing through the official css validator
 
 
 The live link can be found here -https://github.com/Asnikarp5/Rolling-dice.git
-
-## Screenshots
-
-![alt text(http://url/to/caption.PNG)]
 
