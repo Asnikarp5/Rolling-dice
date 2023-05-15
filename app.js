@@ -11,7 +11,7 @@ GAME RULES:
 
 var scores, roundScore, activePlayer, gamePlaying;
 
-init();
+
 
 
 document.querySelector('.btn-roll').addEventListener('click', function () {
@@ -61,9 +61,10 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
     }
 });
 
+//Next Player
 
 function nextPlayer() {
-    //Next player
+
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
     roundScore = 0;
 
@@ -72,9 +73,6 @@ function nextPlayer() {
 
     document.querySelector('.player-0-panel').classList.toggle('active');
     document.querySelector('.player-1-panel').classList.toggle('active');
-
-    //document.querySelector('.player-0-panel').classList.remove('active');
-    //document.querySelector('.player-1-panel').classList.add('active');
 
     document.querySelector('.dice').style.display = 'none';
 }
@@ -119,30 +117,27 @@ function editNames() {
 }
 
 // Rules button
-var modal = document.getElementById("first-box");
+var rule = document.getElementById("first-box");
 
-// Get the button that opens the modal
+// Get the button that opens the rules
 var btn = document.getElementById("myBtn");
 
-// Get the <span> element that closes the modal
+// Get the <span> element that closes the rules
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the rules 
 btn.onclick = function () {
-    modal.style.display = "block";
+    rule.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
+// When the user clicks on <span> (x), close the rules
 span.onclick = function () {
-    modal.style.display = "none";
+    rule.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
+// When the user clicks anywhere outside of the rules, close it
 window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (event.target == rule) {
+        rule.style.display = "none";
     }
 }
-//document.querySelector('#current-' + activePlayer).textContent = dice;
-//document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
-//var x = document.querySelector('#score-0').textContent;
